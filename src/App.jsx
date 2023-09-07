@@ -5,7 +5,7 @@ import Todo from "./components/Todo"
 
 function App() {
   
-  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos") || []))
+  const [todos, setTodos] = useState(JSON.parse(localStorage.getItem("todos")) || [])
 
   const [inputText, setInputText] = useState("")
 
